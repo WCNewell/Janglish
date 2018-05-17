@@ -1,0 +1,44 @@
+html,
+body,
+#heroimage {
+    width: 100%;
+    height: 100%;
+}
+
+#heroimage {
+    background: url('https://orig00.deviantart.net/3632/f/2008/151/4/a/the_planet_earth_by_technoking.jpg') center center;
+    background-size: cover;
+}
+
+#content {
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 1em;
+}
+
+h2 {
+    color: yellow;
+    margin-bottom: 1em;
+}
+
+label {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    margin-top: 10px;
+}
+
+#results {
+    padding: 3em;
+}

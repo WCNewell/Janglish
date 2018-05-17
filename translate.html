@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>janglish-translate</title>
+    <link rel='stylesheet' href='https://bootswatch.com/4/litera/bootstrap.min.css'>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body class='container'>
+    <div id="heroimage">
+        <div id="content">
+            <h1>Janglish</h1>
+            <main>
+                <form class='form'>
+                    <div class='form-group'>
+                        <label for='search'>English</label>
+                        <input type='text' class='form-control' id='search' name='search' placeholder=''>
+                    </div>
+                    <button type='submit' class='btn btn-success'>Translate</button>
+                </form>
+                <section id='results'>
+                    <div id='card' class='card text-white bg-secondary mb-3' style='max-width: 20rem;'>
+                        <div class='card-body'>
+                            <h4 id='language' class='language'></h4>
+                            <p id='translation' class='card-text'></p>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+    <script src=app.js></script>
+</body>
+
+</html>
